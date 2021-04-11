@@ -4,7 +4,7 @@ from tensorflow.keras.callbacks import ModelCheckpoint, LearningRateScheduler
 from tensorflow.keras.optimizers import Adam
 import tensorflow as tf
 import numpy as np
-from model2 import model_axial_fine
+from model import model_axial_fine
 import matplotlib.pyplot as plt
 
 
