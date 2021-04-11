@@ -4,7 +4,7 @@ from tensorflow.keras.callbacks import ModelCheckpoint, LearningRateScheduler
 from tensorflow.keras.optimizers import Adam
 import tensorflow as tf
 import numpy as np
-from model2 import model_axial_coarse
+from model import model_axial_coarse
 
 
 def step_decay_schedule(initial_lr, decay_factor, step_size):
