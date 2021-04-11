@@ -1,7 +1,7 @@
 import tensorflow as tf
 from tensorflow.keras import layers
 from tensorflow.keras.models import Model, Sequential
-import efficientnet
+from tensorflow.keras.applications import efficientnet
 
 
 def model_axial_fine(input_shape, category):
